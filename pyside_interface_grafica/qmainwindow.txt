@@ -1,0 +1,11 @@
+QMainWindow e centralWidget
+-> QApplication (app)
+   -> QMainWindow (window -> setCentralWidget)
+      -> Layout (layout)
+         -> Widget 1 (botao1)
+         -> Widget 2 (botao2)
+         -> Widget 3 (botao3)
+
+    -> show
+-> exec
+
